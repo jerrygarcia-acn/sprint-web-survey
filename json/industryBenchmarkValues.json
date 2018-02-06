@@ -1,0 +1,136 @@
+{"IndustryBenckmarkValues":
+ [
+	{
+		"group": "Group 2",
+		"industries": "Banking / Insurance",
+		"CW": "59",
+		"DI": "59",
+		"PD": "54",
+		"CW_DI": "59",
+		"CW_PD": "57",
+		"DI_PD": "57",
+		"CW_DI_PD": "57"
+	},
+	{
+		"group": "Group 1",
+		"industries": "Construction / Field Service",
+		"CW": "54",
+		"DI": "54",
+		"PD": "49",
+		"CW_DI": "54",
+		"CW_PD": "52",
+		"DI_PD": "52",
+		"CW_DI_PD": "52"
+	},
+	{
+		"group": "Group 3",
+		"industries": "Education",
+		"CW": "49",
+		"DI": "49",
+		"PD": "54",
+		"CW_DI": "49",
+		"CW_PD": "52",
+		"DI_PD": "52",
+		"CW_DI_PD": "51"
+	},
+	{
+		"group": "Group 1",
+		"industries": "Energy",
+		"CW": "54",
+		"DI": "54",
+		"PD": "54",
+		"CW_DI": "54",
+		"CW_PD": "54",
+		"DI_PD": "54",
+		"CW_DI_PD": "54"
+	},
+	{
+		"group": "Group 3",
+		"industries": "Health",
+		"CW": "54",
+		"DI": "54",
+		"PD": "54",
+		"CW_DI": "54",
+		"CW_PD": "54",
+		"DI_PD": "54",
+		"CW_DI_PD": "54"
+	},
+	{
+		"group": "Group 2",
+		"industries": "Media & Entertainment",
+		"CW": "59",
+		"DI": "59",
+		"PD": "59",
+		"CW_DI": "59",
+		"CW_PD": "59",
+		"DI_PD": "59",
+		"CW_DI_PD": "59"
+	},
+	{
+		"group": "Group 2",
+		"industries": "Professional Services",
+		"CW": "59",
+		"DI": "59",
+		"PD": "59",
+		"CW_DI": "59",
+		"CW_PD": "59",
+		"DI_PD": "59",
+		"CW_DI_PD": "59"
+	},
+	{
+		"group": "Group 3",
+		"industries": "Public",
+		"CW": "54",
+		"DI": "54",
+		"PD": "49",
+		"CW_DI": "54",
+		"CW_PD": "52",
+		"DI_PD": "52",
+		"CW_DI_PD": "52"
+	},
+	{
+		"group": "Group 1",
+		"industries": "Retail",
+		"CW": "54",
+		"DI": "54",
+		"PD": "54",
+		"CW_DI": "54",
+		"CW_PD": "54",
+		"DI_PD": "54",
+		"CW_DI_PD": "54"
+	},
+	{
+		"group": "Group 2",
+		"industries": "Technology",
+		"CW": "59",
+		"DI": "59",
+		"PD": "59",
+		"CW_DI": "59",
+		"CW_PD": "59",
+		"DI_PD": "59",
+		"CW_DI_PD": "59"
+	},
+	{
+		"group": "Group 1",
+		"industries": "Transportation",
+		"CW": "54",
+		"DI": "54",
+		"PD": "49",
+		"CW_DI": "54",
+		"CW_PD": "52",
+		"DI_PD": "52",
+		"CW_DI_PD": "52"
+	},
+	{
+		"group": "Group 3",
+		"industries": "Utilities",
+		"CW": "49",
+		"DI": "49",
+		"PD": "49",
+		"CW_DI": "49",
+		"CW_PD": "49",
+		"DI_PD": "49",
+		"CW_DI_PD": "49"
+	}
+  ]
+}
