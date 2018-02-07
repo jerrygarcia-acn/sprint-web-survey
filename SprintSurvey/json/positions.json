@@ -1,0 +1,68 @@
+{"Positions":
+[
+	{
+		"positionValue": "1",
+		"time": "Today",
+		"position": "Trailing",
+		"lowerLimit": "26",
+		"upperLimit": "39",
+		"percentile": "70"
+	},
+	{
+		"positionValue": "2",
+		"time": "Today",
+		"position": "Average",
+		"lowerLimit": "40",
+		"upperLimit": "59",
+		"percentile": "45"
+	},
+	{
+		"positionValue": "3",
+		"time": "Today",
+		"position": "Optimized",
+		"lowerLimit": "60",
+		"upperLimit": "72",
+		"percentile": "25"
+	},
+	{
+		"positionValue": "4",
+		"time": "Today",
+		"position": "Leading",
+		"lowerLimit": "73",
+		"upperLimit": "85",
+		"percentile": "12"
+	},
+	{
+		"positionValue": "1",
+		"time": "Future",
+		"position": "Trailing",
+		"lowerLimit": "27",
+		"upperLimit": "44",
+		"percentile": "70"
+	},
+	{
+		"positionValue": "2",
+		"time": "Future",
+		"position": "Average",
+		"lowerLimit": "45",
+		"upperLimit": "64",
+		"percentile": "50"
+	},
+	{
+		"positionValue": "3",
+		"time": "Future",
+		"position": "Optimized",
+		"lowerLimit": "65",
+		"upperLimit": "82",
+		"percentile": "30"
+	},
+	{
+		"positionValue": "4",
+		"time": "Future",
+		"position": "Leading",
+		"lowerLimit": "83",
+		"upperLimit": "95",
+		"percentile": "12"
+	}
+ ]
+}
