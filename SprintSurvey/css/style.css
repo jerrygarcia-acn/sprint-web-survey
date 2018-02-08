@@ -90,6 +90,8 @@ footer li a:hover {
 
 .copyright{
     font-size: .85em;
+    padding: 0.em 0;
+    margin: 0;
 }
 
 .sprint-refresh {
@@ -1357,4 +1359,15 @@ div#errorChoosePathMsg {
 
 .navbar-toggler {
     color: white;
+}
+
+#mobile-footer-links a {
+    padding: 0.5em 0;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+#mobile-social-links li a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
