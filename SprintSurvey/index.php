@@ -1,7 +1,9 @@
 <?php
-//Specify the page title
-$pageTitle = "Sprint | Works for Business";
+//Specify the page title (Optional)
+//  Default page title: Sprint | Works for Business
+$pageTitle = "This is a custom title";
 ?>
+
 <!--Import HTML head tags-->
 <?php include('./includes/head.php'); ?>
 <body>

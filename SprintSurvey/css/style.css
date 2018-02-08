@@ -387,7 +387,7 @@ div.response-output {
     color: #FFF;
     padding: 8px;
     border-radius: 20px;
-    width: 150px;
+    min-width: 150px;
     font-family: "sprint-Regular";
     font-size: 16px;
 }
@@ -1030,24 +1030,27 @@ div#questionsCon {
     .container-fluid{
         padding-top: 70px;
     }
-    select, textarea, 
+
+   /* select, textarea,
     input[type="text"], 
     input[type="number"], 
     input[type="email"], 
     input[type="tel"],
     .company-radios{
         width: 245px;
-    }
+    } */
 
     .next-btn-company{
         margin-top: 136px;
     }
+
     #prevBtnCompanyInfo,
     #prevBtnUserInfo,
     #prevBtnUserInfo1,
     #prevBtnUserInfo2{
         float: left;
     }
+
     #nextBtnCompanyInfo,
     #nextBtnUserInfo,
     #nextBtnUserInfo1,
@@ -1370,4 +1373,11 @@ div#errorChoosePathMsg {
 
 .limit-width {
     max-width: 547px;
+}
+
+@media (max-width: 320px) {
+    .previous,
+    .submit {
+        min-width: 80px;
+    }
 }

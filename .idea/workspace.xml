@@ -4,6 +4,7 @@
     <list default="true" id="c5aaf24f-b2a2-4d86-858c-7efb28f4a194" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/SprintSurvey/choosePath.php" afterPath="$PROJECT_DIR$/SprintSurvey/choosePath.php" />
+      <change beforePath="$PROJECT_DIR$/SprintSurvey/companyInformation.php" afterPath="$PROJECT_DIR$/SprintSurvey/companyInformation.php" />
       <change beforePath="$PROJECT_DIR$/SprintSurvey/css/style.css" afterPath="$PROJECT_DIR$/SprintSurvey/css/style.css" />
       <change beforePath="$PROJECT_DIR$/SprintSurvey/includes/head.php" afterPath="$PROJECT_DIR$/SprintSurvey/includes/head.php" />
       <change beforePath="$PROJECT_DIR$/SprintSurvey/index.php" afterPath="$PROJECT_DIR$/SprintSurvey/index.php" />
@@ -20,60 +21,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SprintSurvey/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="123" column="24" lean-forward="false" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
+            <state relative-caret-position="136">
+              <caret line="1032" column="4" lean-forward="false" selection-start-line="1032" selection-start-column="4" selection-end-line="1032" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="choosePath.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SprintSurvey/choosePath.php">
+      <file leaf-file-name="companyInformation.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SprintSurvey/companyInformation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SprintSurvey/css/bootstrap/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="5" column="77867" lean-forward="false" selection-start-line="5" selection-start-column="77862" selection-end-line="5" selection-end-column="77867" />
+            <state relative-caret-position="341">
+              <caret line="125" column="43" lean-forward="true" selection-start-line="125" selection-start-column="43" selection-end-line="125" selection-end-column="69" />
               <folding>
-                <element signature="e#61909#62109#2" expanded="true" />
-                <element signature="e#62317#62466#2" expanded="true" />
-                <element signature="e#62968#63114#2" expanded="true" />
-                <element signature="e#63415#63581#1" expanded="true" />
-                <element signature="e#74301#74544#2" expanded="true" />
-                <element signature="e#75411#75660#2" expanded="true" />
-                <element signature="e#101957#102147#2" expanded="true" />
-                <element signature="e#102193#102383#2" expanded="true" />
+                <element signature="n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#!!top" expanded="false" />
+                <element signature="e#2451#2456#0#HTML" expanded="true" />
+                <element signature="n#div#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SprintSurvey/includes/head.php">
+      <file leaf-file-name="choosePath.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SprintSurvey/choosePath.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="58" lean-forward="false" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+            <state relative-caret-position="133">
+              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="77" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SprintSurvey/css/bootstrap/bootstrap.css">
+      <file leaf-file-name="industries.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SprintSurvey/json/industries.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="601" column="21" lean-forward="false" selection-start-line="601" selection-start-column="16" selection-end-line="601" selection-end-column="21" />
+            <state relative-caret-position="288">
+              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -95,9 +84,14 @@
       <find>-15px</find>
       <find>inner-survey-path</find>
       <find>survey-sidebar</find>
+      <find>col-lg-6</find>
+      <find>company-radios</find>
+      <find>prevBtnCompanyInfo</find>
+      <find>submit</find>
     </findStrings>
     <replaceStrings>
       <replace>./</replace>
+      <replace>col-md-6</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -107,14 +101,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/SprintSurvey/resultPage.php" />
-        <option value="$PROJECT_DIR$/SprintSurvey/companyInformation.php" />
         <option value="$PROJECT_DIR$/SprintSurvey/surveyQuestions.php" />
         <option value="$PROJECT_DIR$/SprintSurvey/userInformation.php" />
         <option value="$PROJECT_DIR$/SprintSurvey/includes/header.php" />
         <option value="$PROJECT_DIR$/SprintSurvey/includes/footer.php" />
-        <option value="$PROJECT_DIR$/SprintSurvey/index.php" />
         <option value="$PROJECT_DIR$/SprintSurvey/includes/head.php" />
+        <option value="$PROJECT_DIR$/SprintSurvey/index.php" />
         <option value="$PROJECT_DIR$/SprintSurvey/choosePath.php" />
+        <option value="$PROJECT_DIR$/SprintSurvey/companyInformation.php" />
         <option value="$PROJECT_DIR$/SprintSurvey/css/style.css" />
       </list>
     </option>
@@ -173,14 +167,13 @@
               <item name="sprint-web-survey" type="b2602c69:ProjectViewProjectNode" />
               <item name="sprint-web-survey" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="SprintSurvey" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="sprint-web-survey" type="b2602c69:ProjectViewProjectNode" />
               <item name="sprint-web-survey" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="SprintSurvey" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="json" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -228,12 +221,12 @@
       <workItem from="1518035038693" duration="3133000" />
       <workItem from="1518038206375" duration="9098000" />
       <workItem from="1518102742401" duration="6575000" />
-      <workItem from="1518114383798" duration="9576000" />
+      <workItem from="1518114383798" duration="14440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28610000" />
+    <option name="totallyTimeSpent" value="33474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -335,13 +328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SprintSurvey/companyInformation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SprintSurvey/questionSelection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -412,18 +398,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SprintSurvey/css/bootstrap/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="601" column="21" lean-forward="false" selection-start-line="601" selection-start-column="16" selection-end-line="601" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SprintSurvey/json/industries.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SprintSurvey/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="96">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SprintSurvey/includes/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SprintSurvey/css/bootstrap/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="5" column="77867" lean-forward="false" selection-start-line="5" selection-start-column="77862" selection-end-line="5" selection-end-column="77867" />
+        <state relative-caret-position="148">
+          <caret line="5" column="38466" lean-forward="false" selection-start-line="5" selection-start-column="38466" selection-end-line="5" selection-end-column="38466" />
           <folding>
             <element signature="e#61909#62109#2" expanded="true" />
             <element signature="e#62317#62466#2" expanded="true" />
@@ -437,34 +447,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SprintSurvey/includes/head.php">
+    <entry file="file://$PROJECT_DIR$/SprintSurvey/choosePath.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="58" lean-forward="false" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        <state relative-caret-position="133">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="77" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SprintSurvey/css/bootstrap/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/SprintSurvey/companyInformation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="601" column="21" lean-forward="false" selection-start-line="601" selection-start-column="16" selection-end-line="601" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="341">
+          <caret line="125" column="43" lean-forward="true" selection-start-line="125" selection-start-column="43" selection-end-line="125" selection-end-column="69" />
+          <folding>
+            <element signature="n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="e#2451#2456#0#HTML" expanded="true" />
+            <element signature="n#div#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SprintSurvey/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="123" column="24" lean-forward="false" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprintSurvey/choosePath.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        <state relative-caret-position="136">
+          <caret line="1032" column="4" lean-forward="false" selection-start-line="1032" selection-start-column="4" selection-end-line="1032" selection-end-column="4" />
           <folding />
         </state>
       </provider>

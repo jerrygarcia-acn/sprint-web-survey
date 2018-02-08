@@ -92,7 +92,7 @@ $pageTitle = 'Sprint | Works for Business';
                         </div>
                     </div>
                 </div>
-                <div class="survey-sidebar hidden-md-down not-visible offset-2 col-md-4 col-12">
+                <div class="survey-sidebar hidden-md-down not-visible offset-md-2 col-md-4 col-12">
                     <div class="survey-path-sidebar">
                         <div class="inner-survey-path yellow sideDesktop">
                         <span class="icon yellow">
@@ -138,8 +138,7 @@ $pageTitle = 'Sprint | Works for Business';
                             </div>
                         </div>
                     </div>
-                </
-                -div>
+                </div>
             </div>
         </div>
     </section>
