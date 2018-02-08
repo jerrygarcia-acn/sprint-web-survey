@@ -90,7 +90,7 @@ footer li a:hover {
 
 .copyright{
     font-size: .85em;
-    padding: 0.em 0;
+    padding: 0.75em 0;
     margin: 0;
 }
 
@@ -116,7 +116,7 @@ footer li a:hover {
 }
 
 .survey-sidebar {
-    background-color: #f9fafa;
+    background: linear-gradient(to right, #f9fafa , white);
     border-left: 4px solid #d5dbde;
 }
 
@@ -147,7 +147,7 @@ footer li a:hover {
 
 .survey-path-sidebar .inner-survey-path {
     padding-top: 30px;
-    margin-left: -4px;
+    margin-left: -19px;
     border-left: 4px solid transparent;
     font-weight: 400;
     font-size: 16px;
@@ -168,7 +168,7 @@ footer li a:hover {
 .survey-path-sidebar .inner-survey-path.yellow {
     border-left: 4px solid #ffc20e;
     color: #ffc20e;
-    margin-left: -4px;
+    margin-left: -19px;
     font-family: sprint-med-Regular ;
 }
 
@@ -375,7 +375,7 @@ div.response-output {
     color: #ffc20e;
     padding: 6px;
     border-radius: 20px;
-    width: 150px;
+    min-width: 150px;
     transition: 300ms;
     font-family: "sprint-Regular";
     font-size: 16px;
@@ -1021,9 +1021,9 @@ div#questionsCon {
  }
 
  @media(min-width:922px){
-    .chooseBox{
+/*    .chooseBox{
         padding:3px;
-    }
+    }*/
     .nextBtnCompany {
         margin-top: 160px;
     }
@@ -1071,10 +1071,6 @@ div#questionsCon {
     }
     .futureSpace{
         margin-top: 40px;
-    }
-    .nextBtnChoose {
-        margin-top: 136px;
-        margin-left: 322px;
     }
 
     .competitiveness-trend .results-section2.results-score{
@@ -1370,4 +1366,8 @@ div#errorChoosePathMsg {
 #mobile-social-links li a {
     padding-left: 0.5em;
     padding-right: 0.5em;
+}
+
+.limit-width {
+    max-width: 547px;
 }
