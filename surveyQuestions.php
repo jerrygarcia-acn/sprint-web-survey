@@ -22,12 +22,14 @@ $pageTitle = 'Sprint | Works for Business';
                         <div class="container">
                             <div class="row">
                                 <div class="col-12" id="questionsCon">
+
                                     <?php
                                     $pathChosen = $_POST["pathChosen"];
                                     $induChosen = $_POST["induChosen"];
                                     ?>
-                                    <div id="pathChosen" style="display:none;"><?php echo $pathChosen ?></div>
-                                    <div id="induChosen" style="display:none;"><?php echo $induChosen ?></div>
+
+                                    <div id="pathChosen"><?php echo $pathChosen ?></div>
+                                    <div id="induChosen"><?php echo $induChosen ?></div>
                                     <input hidden name="company" id="company" value="">
                                     <input hidden name="sector" id="sector" value="">
                                     <input hidden name="employees" id="employees" value="">

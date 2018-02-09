@@ -5,17 +5,20 @@ $(document).ready(function () {
     var startOver = document.getElementById("start-over-btn");
     btn.onclick = function() {
         modal.style.display = "block";
-    }
+    };
+
     span.onclick = function() {
         modal.style.display = "none";
-    }
+    };
+
     window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";
         }
-    }
+    };
+
     startOver.onclick = function() { 
         location.href = "./choosePath.php";
-    }
+    };
 });
 

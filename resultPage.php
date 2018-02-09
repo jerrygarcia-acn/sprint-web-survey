@@ -108,7 +108,7 @@ $pageTitle = 'Sprint | Works for Business';
                     <p id="retakeSurvey" class="information-take-survey">Want to take the
                         <br>survey again?</p>
                     <p>
-                        <a id="SprintModalBtnResults" class="survey-button" href="./index.php">Retake
+                        <a id="SprintModalBtnResults" class="survey-button" href="index.php">Retake
                             Survey</a>
                     </p>
                 </div>
@@ -158,7 +158,7 @@ $pageTitle = 'Sprint | Works for Business';
                         <p id="retakeSurvey2" class="information-take-survey">Want to take the
                             <br>survey again?</p>
                         <p>
-                            <a id="SprintModalBtnResults2" class="survey-button" href="./index.php">Retake
+                            <a id="SprintModalBtnResults2" class="survey-button" href="index.php">Retake
                                 Survey</a>
                         </p>
                     </div>

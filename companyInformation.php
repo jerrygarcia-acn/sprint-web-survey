@@ -25,31 +25,17 @@ $pageTitle = 'Sprint | Works for Business';
                     </div>
                     <div class="row m-0">
                         <div class="col-12 pt-5">
-                            <form action="./surveyQuestions.php" method="post" class="form" id="companyForm">
-                                <input hidden name="pathChosen" id="pathChosen" value="">
+                            <form action="surveyQuestions.php" method="post" class="form" id="companyForm">
                                 <div class="row m-0">
                                     <div class="col-12 col-md-6">
-                                        <label class="bold-subtitle" for="company">Company Name: *</label>
-                                        <input class="text-style" id="company" type="text" name="companyName" value=""
+                                        <label class="bold-subtitle" for="companyName">Company Name: *</label>
+                                        <input class="text-style" id="companyName" type="text" name="companyName" value=""
                                                size="40" required>
                                     </div>
                                     <div class="col-12 col-md-6">
-                                        <label class="bold-subtitle" for="induChosen">Industry: *</label>
-                                        <select id="induChosen" name="induChosen" class="options" required>
-                                            <option>---</option>
-                                            <option value="Banking / Insurance">Banking / Insurance</option>
-                                            <option value="Construction / Field Service">Construction / Field Service
-                                            </option>
-                                            <option value="Education">Education</option>
-                                            <option value="Energy">Energy</option>
-                                            <option value="Health">Health</option>
-                                            <option value="Media &amp; Entertainment">Media &amp; Entertainment</option>
-                                            <option value="Professional Services">Professional Services</option>
-                                            <option value="Public">Public</option>
-                                            <option value="Retail">Retail</option>
-                                            <option value="Technology">Technology</option>
-                                            <option value="Transportation">Transportation</option>
-                                            <option value="Utilities">Utilities</option>
+                                        <label class="bold-subtitle" for="industry">Industry: *</label>
+                                        <select id="industry" name="industry" class="options" required>
+                                            <option value="">---</option>
                                         </select>
                                     </div>
                                 </div>
@@ -58,7 +44,7 @@ $pageTitle = 'Sprint | Works for Business';
                                         <label class="bold-subtitle" for="sec">Sector: *</label>
                                         <div class="row m-0">
                                             <div class="btn-group col-12 p-0 company-radios" data-toggle="buttons">
-                                                <label class="btn btn-primary col-6 align-middle">
+                                                <label class="btn btn-primary col-6">
                                                     <input type="radio" name="sector" value="Private">Private
                                                 </label>
                                                 <label class="btn btn-primary col-6">
@@ -68,7 +54,6 @@ $pageTitle = 'Sprint | Works for Business';
                                         </div>
                                         <span class="not-valid-tip" id="errorChoosePathSector" style="display:none;"
                                               role="alert">The field is required.</span>
-                                        </p>
                                     </div>
                                     <div class="col-12 col-md-6">
                                         <label class="bold-subtitle" for="employees">Number of Employees: *</label>
@@ -177,6 +162,10 @@ $pageTitle = 'Sprint | Works for Business';
     <!--Import footer tag-->
     <?php include('./includes/footer.php'); ?>
     <!--Import footer tag-->
+
+    <!--Load companyInformation.js-->
+    <script src="./js/companyInformation.js"></script>
+    <!--Load companyInformation.js-->
 
 </main>
 </body>

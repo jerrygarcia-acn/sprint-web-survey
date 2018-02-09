@@ -37,8 +37,8 @@ $pageTitle = 'Sprint | Works for Business';
                                     <div class="col-12 col-md-4 px-0 pr-md-1 text-center chooseBox"
                                          id="choosePathGroup">
                                         <div class="path">
-                                            <label class="first" for="dg">
-                                                <input id="dg" name="dg" value="Digitalization" type="checkbox">
+                                            <label class="first" for="digitalization">
+                                                <input id="digitalization" name="paths[]" value="digitalization" type="checkbox">
                                                 <img class="choose-img" src="./images/Trend1.png" alt="Digitalization">
                                                 <span>Digitalization</span>
                                                 <p>Lorem ipsum dolor sit amet, cons adipiscing elit, sed do.</p>
@@ -47,8 +47,8 @@ $pageTitle = 'Sprint | Works for Business';
                                     </div>
                                     <div class="col-12 col-md-4 px-0 pr-md-1 text-center chooseBox">
                                         <div class="path">
-                                            <label class="second" for="cw">
-                                                <input id="cw" name="cw" value="Changing Workforce" type="checkbox">
+                                            <label class="second" for="changingWorkforce">
+                                                <input id="changingWorkforce" name="paths[]" value="changingWorkforce" type="checkbox">
                                                 <img class="choose-img" src="./images/Trend2.png"
                                                      alt="Changing Workforce">
                                                 <span>Changing Workforce</span>
@@ -58,8 +58,8 @@ $pageTitle = 'Sprint | Works for Business';
                                     </div>
                                     <div class="col-12 col-md-4 px-0 pr-md-1 text-center chooseBox">
                                         <div class="path">
-                                            <label class="third" for="pd">
-                                                <input id="pd" name="pd" value="Predictable Disruption" type="checkbox">
+                                            <label class="third" for="predictableDisruption">
+                                                <input id="predictableDisruption" name="paths[]" value="predictableDisruption" type="checkbox">
                                                 <img class="choose-img" src="./images/Trend3.png"
                                                      alt="Predictive Disruption">
                                                 <span>Predictable Disruption</span>
@@ -146,6 +146,10 @@ $pageTitle = 'Sprint | Works for Business';
     <!--Import footer tag-->
     <?php include('./includes/footer.php'); ?>
     <!--Import footer tag-->
+
+    <!-- Import choosePath.js -->
+    <script src="./js/choosePath.js"></script>
+    <!-- Import choosePath.js -->
 
 </main>
 </body>

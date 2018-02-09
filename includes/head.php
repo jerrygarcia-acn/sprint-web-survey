@@ -19,7 +19,9 @@
 
     <script src="./js/jquery-3.2.1.min.js"></script>
     <script src="./js/bootstrap/bootstrap.min.js"></script>
+    <script src="./js/js.cookie.js"></script>
+
     <script src="./js/customjs.js"></script>
-    <script src="./js/choosePath.js"></script>
-    <script src="./js/choosePath.js"></script>
+    <script src="./js/helpers.js"></script>
+
 </head>
