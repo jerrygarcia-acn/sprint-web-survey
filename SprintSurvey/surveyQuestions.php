@@ -35,7 +35,7 @@ $pageTitle = 'Sprint | Works for Business';
                                     <input hidden id="answerStorageArray" name="answerStorageArray" value="">
                                     <input hidden id="jsonAnswer" name="jsonAnswer" value="">
                                     <div id="questionsContainer">
-                                        <!-- /Here is adding the questions -->
+                                        <!-- Here is adding the questions -->
                                     </div>
                                 </div>
                             </div>

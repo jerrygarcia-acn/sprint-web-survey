@@ -21,4 +21,5 @@
     <script src="./js/bootstrap/bootstrap.min.js"></script>
     <script src="./js/customjs.js"></script>
     <script src="./js/choosePath.js"></script>
+    <script src="./js/choosePath.js"></script>
 </head>

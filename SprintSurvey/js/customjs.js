@@ -15,7 +15,7 @@ $(document).ready(function () {
         }
     }
     startOver.onclick = function() { 
-        location.href = "../SprintSurvey/choosePath.php";
+        location.href = "./choosePath.php";
     }
 });
 
