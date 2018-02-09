@@ -1,10 +1,3 @@
-//Declaration of PathsChosen Object
-const PathsChosen = (function (digitalization, changingWorkforce, predictableDisruption) {
-    this.digitalization = !!digitalization;
-    this.changingWorkforce = !!changingWorkforce;
-    this.predictableDisruption = !!predictableDisruption;
-});
-
 //Variable that will hold chosen paths
 var chosenPaths;
 

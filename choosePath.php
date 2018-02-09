@@ -38,7 +38,8 @@ $pageTitle = 'Sprint | Works for Business';
                                          id="choosePathGroup">
                                         <div class="path">
                                             <label class="first" for="digitalization">
-                                                <input id="digitalization" name="paths[]" value="digitalization" type="checkbox">
+                                                <input id="digitalization" name="paths[]" value="digitalization"
+                                                       type="checkbox">
                                                 <img class="choose-img" src="./images/Trend1.png" alt="Digitalization">
                                                 <span>Digitalization</span>
                                                 <p>Lorem ipsum dolor sit amet, cons adipiscing elit, sed do.</p>
@@ -48,7 +49,8 @@ $pageTitle = 'Sprint | Works for Business';
                                     <div class="col-12 col-md-4 px-0 pr-md-1 text-center chooseBox">
                                         <div class="path">
                                             <label class="second" for="changingWorkforce">
-                                                <input id="changingWorkforce" name="paths[]" value="changingWorkforce" type="checkbox">
+                                                <input id="changingWorkforce" name="paths[]" value="changingWorkforce"
+                                                       type="checkbox">
                                                 <img class="choose-img" src="./images/Trend2.png"
                                                      alt="Changing Workforce">
                                                 <span>Changing Workforce</span>
@@ -59,7 +61,8 @@ $pageTitle = 'Sprint | Works for Business';
                                     <div class="col-12 col-md-4 px-0 pr-md-1 text-center chooseBox">
                                         <div class="path">
                                             <label class="third" for="predictableDisruption">
-                                                <input id="predictableDisruption" name="paths[]" value="predictableDisruption" type="checkbox">
+                                                <input id="predictableDisruption" name="paths[]"
+                                                       value="predictableDisruption" type="checkbox">
                                                 <img class="choose-img" src="./images/Trend3.png"
                                                      alt="Predictive Disruption">
                                                 <span>Predictable Disruption</span>
@@ -75,17 +78,6 @@ $pageTitle = 'Sprint | Works for Business';
                                     </div>
                                     <div class="col-12">
                                         <img class="hidden-md-up not-visible go-btn" src="./images/goBtn.jpg">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                            <span class="not-valid-tip" id="errorChoosePath" style="display: none;"
-                                                  role="alert">The field is required.
-                                            </span>
-                                        <div class="response-output display-none validation-errors"
-                                             id="errorChoosePathMsg" role="alert">One or more fields have an error.
-                                            Please check and try again.
-                                        </div>
                                     </div>
                                 </div>
                             </form>

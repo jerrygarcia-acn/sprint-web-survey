@@ -29,7 +29,8 @@ $pageTitle = 'Sprint | Works for Business';
                                 <div class="row m-0">
                                     <div class="col-12 col-md-6">
                                         <label class="bold-subtitle" for="companyName">Company Name: *</label>
-                                        <input class="text-style" id="companyName" type="text" name="companyName" value=""
+                                        <input class="text-style" id="companyName" type="text" name="companyName"
+                                               value=""
                                                size="40" required>
                                     </div>
                                     <div class="col-12 col-md-6">
@@ -52,8 +53,6 @@ $pageTitle = 'Sprint | Works for Business';
                                                 </label>
                                             </div>
                                         </div>
-                                        <span class="not-valid-tip" id="errorChoosePathSector" style="display:none;"
-                                              role="alert">The field is required.</span>
                                     </div>
                                     <div class="col-12 col-md-6">
                                         <label class="bold-subtitle" for="employees">Number of Employees: *</label>
@@ -80,8 +79,6 @@ $pageTitle = 'Sprint | Works for Business';
                                                 </label>
                                             </div>
                                         </div>
-                                        <span class="not-valid-tip" id="errorChoosePathBusiness"
-                                              style="display:none;" role="alert">The field is required.</span>
                                     </div>
                                 </div>
                                 <div class="row m-0 pt-5">
@@ -94,14 +91,6 @@ $pageTitle = 'Sprint | Works for Business';
                                     </div>
                                     <div class="col-12">
                                         <img class="hidden-md-up not-visible go-btn" src="./images/goBtn.jpg">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="response-output display-none validation-errors"
-                                             id="errorChoosePathMsg" role="alert">
-                                            One or more fields have an error. Please check and try again.
-                                        </div>
                                     </div>
                                 </div>
                             </form>
