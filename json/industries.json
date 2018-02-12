@@ -42,22 +42,22 @@
 	},
 	{
 		"industryName": "Education",
-		"industryGroupName": "Hep",
+		"industryGroupName": "HEP",
 		"industryGroup": "Group 3"
 	},
 	{
 		"industryName": "Health",
-		"industryGroupName": "Hep",
+		"industryGroupName": "HEP",
 		"industryGroup": "Group 3"
 	},
 	{
 		"industryName": "Public",
-		"industryGroupName": "Hep",
+		"industryGroupName": "HEP",
 		"industryGroup": "Group 3"
 	},
 	{
 		"industryName": "Utilities",
-		"industryGroupName": "Hep",
+		"industryGroupName": "HEP",
 		"industryGroup": "Group 3"
 	}
  ]

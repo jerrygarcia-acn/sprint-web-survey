@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5aaf24f-b2a2-4d86-858c-7efb28f4a194" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/json/industries.json" afterPath="$PROJECT_DIR$/json/industries.json" />
+      <change beforePath="$PROJECT_DIR$/json/questions.json" afterPath="$PROJECT_DIR$/json/questions.json" />
+      <change beforePath="$PROJECT_DIR$/questionSelection.php" afterPath="$PROJECT_DIR$/questionSelection.php" />
+      <change beforePath="$PROJECT_DIR$/surveyQuestions.php" afterPath="$PROJECT_DIR$/surveyQuestions.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,7 +23,7 @@
       <file leaf-file-name="surveyQuestions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/surveyQuestions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3040">
+            <state relative-caret-position="-416">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <marker date="1518025918857" expanded="true" signature="3969:3982" ph="..." />
@@ -36,19 +39,41 @@
       <file leaf-file-name="questions.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/json/questions.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30432">
-              <caret line="1902" column="30" lean-forward="true" selection-start-line="1902" selection-start-column="30" selection-end-line="1902" selection-end-column="30" />
+            <state relative-caret-position="2283">
+              <caret line="2036" column="5" lean-forward="true" selection-start-line="2036" selection-start-column="5" selection-end-line="2036" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="questionSelection.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/questionSelection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="208">
+              <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="questionSelection.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/questionSelection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-16">
+              <caret line="178" column="13" lean-forward="false" selection-start-line="178" selection-start-column="13" selection-end-line="178" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="questionSelectionV2.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/questionSelectionV2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+              <folding>
+                <element signature="e#6#92#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,12 +89,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>toggle</find>
-      <find>title</find>
-      <find>.previous</find>
-      <find>choose</find>
-      <find>previous</find>
-      <find>side</find>
       <find>sideDesktop</find>
       <find>-15px</find>
       <find>inner-survey-path</find>
@@ -94,11 +113,20 @@
       <find>not-valid</find>
       <find>error</find>
       <find>answer0</find>
+      <find>return</find>
+      <find>json_encode</find>
+      <find>Hep</find>
+      <find>trendsSelected</find>
+      <find>Predictable Disruption</find>
+      <find>3.3.2</find>
     </findStrings>
     <replaceStrings>
       <replace>./</replace>
       <replace>col-md-6</replace>
+      <replace>HEP</replace>
       <replace>0</replace>
+      <replace>selectedTrends</replace>
+      <replace>predictableDisruption</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -128,10 +156,14 @@
         <option value="$PROJECT_DIR$/js/choosePath.js" />
         <option value="$PROJECT_DIR$/js/helpers.js" />
         <option value="$PROJECT_DIR$/choosePath.php" />
-        <option value="$PROJECT_DIR$/surveyQuestions.php" />
         <option value="$PROJECT_DIR$/js/companyInformation.js" />
-        <option value="$PROJECT_DIR$/json/questions.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/questionSelection.php" />
+        <option value="$PROJECT_DIR$/surveyQuestions.php" />
+        <option value="$PROJECT_DIR$/json/industries.json" />
+        <option value="$PROJECT_DIR$/js/questionSelection.js" />
+        <option value="$PROJECT_DIR$/json/questions.json" />
+        <option value="$PROJECT_DIR$/questionSelectionV2.php" />
       </list>
     </option>
   </component>
@@ -172,6 +204,11 @@
             <path>
               <item name="sprint-web-survey" type="b2602c69:ProjectViewProjectNode" />
               <item name="sprint-web-survey" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sprint-web-survey" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sprint-web-survey" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="sprint-web-survey" type="b2602c69:ProjectViewProjectNode" />
@@ -229,31 +266,31 @@
       <workItem from="1518102742401" duration="6575000" />
       <workItem from="1518114383798" duration="15669000" />
       <workItem from="1518188931897" duration="25682000" />
-      <workItem from="1518449418368" duration="3687000" />
+      <workItem from="1518449418368" duration="22742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64072000" />
+    <option name="totallyTimeSpent" value="83127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19765739" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.204236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2282092" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2282092" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23684211" sideWeight="0.49707174" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -399,6 +436,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -440,17 +478,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/questionSelection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-688">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/surveyQuestions - Copy.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518018469913" expanded="true" signature="3945:3958" ph="..." />
+            <marker date="1518018469913" expanded="true" signature="4062:4074" ph="..." />
+            <marker date="1518018469913" expanded="true" signature="6576:6588" ph="..." />
+            <marker date="1518018469913" expanded="true" signature="9061:9073" ph="..." />
+            <marker date="1518018469913" expanded="true" signature="10922:10934" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -458,6 +496,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -466,13 +505,6 @@
         <state relative-caret-position="114">
           <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="80" selection-end-column="42" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/industries.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -487,20 +519,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/companyInformation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="82" column="23" lean-forward="false" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/surveyQuestions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="107" column="56" lean-forward="false" selection-start-line="107" selection-start-column="55" selection-end-line="107" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -508,12 +527,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/surveyQuestions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="68" lean-forward="false" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/companyInformation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="82" column="23" lean-forward="false" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/questionSelection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/industries.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-642">
+          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/questions.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2283">
+          <caret line="2036" column="5" lean-forward="true" selection-start-line="2036" selection-start-column="5" selection-end-line="2036" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/surveyQuestions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3040">
+        <state relative-caret-position="-416">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1518025918857" expanded="true" signature="3969:3982" ph="..." />
@@ -525,19 +593,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/json/questions.json">
+    <entry file="file://$PROJECT_DIR$/questionSelection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30432">
-          <caret line="1902" column="30" lean-forward="true" selection-start-line="1902" selection-start-column="30" selection-end-line="1902" selection-end-column="30" />
+        <state relative-caret-position="-16">
+          <caret line="178" column="13" lean-forward="false" selection-start-line="178" selection-start-column="13" selection-end-line="178" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/questionSelectionV2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+          <folding>
+            <element signature="e#6#92#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

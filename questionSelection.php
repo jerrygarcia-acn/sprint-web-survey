@@ -45,7 +45,7 @@
 	}
 
 	//obtain the industry group
-	$industryJson = file_get_contents('../SprintSurvey/json/industries.json');
+	$industryJson = file_get_contents('./json/industries.json');
 	$data = json_decode($industryJson);
 	foreach($data->Industries as $industry){
 		//echo "Select trend $question->trend"; echo "<br>";
@@ -55,7 +55,7 @@
 	}
 
 	// Question selection
-	$questionJson = file_get_contents('../SprintSurvey/json/questions.json');
+	$questionJson = file_get_contents('./json/questions.json');
 	$data = json_decode($questionJson);
 	$i = 0;
 

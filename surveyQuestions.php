@@ -118,6 +118,10 @@ $pageTitle = 'Sprint | Works for Business';
     <?php include('./includes/footer.php'); ?>
     <!--Import footer tag-->
 
+    <!--Import JS questionSelection.js-->
+    <script src="./js/questionSelection.js"></script>
+    <!--Import JS questionSelection.js-->
+
 </main>
 </body>
 </html>
