@@ -51,14 +51,21 @@ function getQuestions() {
 
                 if (!(questionId === lastQuestionId)) {
                     answers[questionId] = new Answer(question.questionType);
+
+                    //Save if the question score impacts later
+                    answers[questionId].questionImpactOnTodayScore = question.impactToScore;
+
+                    //Save question trend
+                    answers[questionId].trend = question.trend;
+
                     lastQuestionId = questionId;
                 } else {
+                    //Save if the question score impacts later
+                    answers[questionId].questionImpactOnFutureScore = question.impactToScore;
+
                     answers[questionId].futureQuestionType = question.questionType;
                 }
             });
-
-            //Save a cookie with the questions that where selected for future purpose
-            Cookies.set('questions', questions);
 
             //Prepare form after
             prepareForm();
@@ -86,17 +93,16 @@ function prepareForm() {
     //Bind form submit
     form.submit(function () {
 
-        if (forwardIndex < totalQuestions && collectAnswers(currentQuestionId)) {
-            showNextQuestion(questions[forwardIndex], questions[forwardIndex + 1]);
+        if (forwardIndex < totalQuestions) {
+            if (collectAnswers(currentQuestionId)) {
+                showNextQuestion(questions[forwardIndex], questions[forwardIndex + 1]);
 
-            //Select history answers if there is any
-            selectHistoryAnswers(currentQuestionId);
+                //Select history answers if there is any
+                selectHistoryAnswers(currentQuestionId);
+            }
             return false;
         } else {
-
-            //Save answers to a cookie
-            Cookies.set('answers', answers);
-            return true;
+            return collectAnswers(currentQuestionId);
         }
     });
 
@@ -108,6 +114,8 @@ function prepareForm() {
 
     //Show the first question on load
     showNextQuestion(questions[forwardIndex], questions[forwardIndex + 1]);
+    //Show question history if any
+    selectHistoryAnswers(currentQuestionId)
 }
 
 //Show today and future questin description and answer blocks
@@ -248,9 +256,13 @@ function collectAnswers(questionId) {
         answers[questionId].todayAnswers = [];
         answers[questionId].futureAnswers = [];
         return false;
-    }
+    } else {
 
-    return true;
+        //For some reason Cookies library does not save cookie here. Using old way
+        document.cookie = 'answers' + '=' + JSON.stringify(answers) + '; path=/';
+        //Cookies.set('answers', answers);
+        return true;
+    }
 }
 
 //Select questions from they history (if they have any)
@@ -261,15 +273,13 @@ function selectHistoryAnswers(questionId) {
     const todayAnswers = answers[questionId].todayAnswers;
     const futureAnswers = answers[questionId].futureAnswers;
 
+    const todayAnswerCount = todayAnswers.length;
+    const futureAnswerCount = futureAnswers.length;
+
     //Today answers
-    if (todayAnswers.lenght > 1) {
+    if (todayAnswerCount && todayAnswerCount > 1) {
         todayAnswers.forEach(function (answer) {
-            todayInputs.each(function () {
-                if ($(this).val() === answer) {
-                    $(this).prop('checked', true);
-                    $(this).parent().addClass('active');
-                }
-            })
+            $todayAnswers.find('[value="' + answer + '"]').parent().addClass('active');
         });
     } else {
         todayInputs.each(function () {
@@ -281,16 +291,10 @@ function selectHistoryAnswers(questionId) {
     }
 
     //Future answers
-    if (futureAnswers.lenght > 1) {
-        futureInputs.each(function () {
-                futureAnswers.forEach(function (answer) {
-                    if ($(this).val() === answer) {
-                        $(this).prop('checked', true);
-                        $(this).parent().addClass('active');
-                    }
-                });
-            }
-        );
+    if (futureAnswerCount && futureAnswerCount > 1) {
+        futureAnswers.forEach(function (answer) {
+            $futureAnswers.find('[value="' + answer + '"]').parent().addClass('active');
+        });
     } else {
         futureInputs.each(function () {
             if ($(this).val() === futureAnswers[0]) {
@@ -300,6 +304,7 @@ function selectHistoryAnswers(questionId) {
         });
     }
 }
+
 
 $(document).ready(function () {
     getQuestions();

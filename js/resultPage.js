@@ -1,22 +1,5 @@
 $(document).ready(function () {
     
-    var jsonAnswer = $("#jsonAnswer").text();
-    var FName = $("#FName").text();
-    var LName = $("#LName").text();
-    var Title = $("#Title").text();
-    var Dept = $("#Dept").text();
-    var ZipCode = $("#Zip").text();
-    var Tel = $("#Tel").text();
-    var Mail = $("#Mail").text();
-
-    jsonAnswer = jsonAnswer + '"Title":"' + Title + '", ';
-    jsonAnswer = jsonAnswer + '"First Name":"' + FName + '", ';
-    jsonAnswer = jsonAnswer + '"Last Name":"' + LName + '", ';
-    jsonAnswer = jsonAnswer + '"Department":"' + Dept + '", ';
-    jsonAnswer = jsonAnswer + '"Zip Code":"' + ZipCode + '", ';
-    jsonAnswer = jsonAnswer + '"Phone Number":"' + Tel + '", ';
-    jsonAnswer = jsonAnswer + '"EMail":"' + Mail + '" }';
-
     evaluateResults(jsonAnswer);
 
 

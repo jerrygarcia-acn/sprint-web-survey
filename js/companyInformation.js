@@ -33,7 +33,7 @@ function saveCompanyInformation() {
         return false;
     } else {
         //If not, save object in cookies
-        Cookies.set('companyInfo', companyInfo);
+        Cookies.set('companyInfo', companyInfo, { expires: 30 });
         return true;
     }
 }

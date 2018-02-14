@@ -16,29 +16,6 @@ $pageTitle = 'Sprint | Works for Business';
 
     <section class="result-info">
         <div class="container">
-
-            <?php
-            $jsonAnswer = $_POST["jsonAnswer"];
-            $FName = $_POST["FName"];
-            $LName = $_POST["LName"];
-            $Title = $_POST["Title"];
-            $Dept = $_POST["Dept"];
-            $Zip = $_POST["Zip"];
-            $Tel = $_POST["Tel"];
-            $Mail = $_POST["Mail"];
-            ?>
-
-
-            <div id="jsonAnswer" style="display:none;"><?php echo $jsonAnswer ?></div>
-            <div id="FName" style="display:none;"><?php echo $FName ?></div>
-            <div id="LName" style="display:none;"><?php echo $LName ?></div>
-            <div id="Title" style="display:none;"><?php echo $Title ?></div>
-            <div id="Dept" style="display:none;"><?php echo $Dept ?></div>
-            <div id="Zip" style="display:none;"><?php echo $Zip ?></div>
-            <div id="Tel" style="display:none;"><?php echo $Tel ?></div>
-            <div id="Mail" style="display:none;"><?php echo $Mail ?></div>
-
-
             <div class="row">
                 <div class="col-12 titles-results">
                     <h1>Your Current Competitiveness Scores</h1>
@@ -149,7 +126,6 @@ $pageTitle = 'Sprint | Works for Business';
                 </div>
                 <p class="hidden-md-up not-visible see-more-text-result">See More</p>
             </div>
-
         </div>
         <div class="container result-container">
             <div class="row">
@@ -248,6 +224,10 @@ $pageTitle = 'Sprint | Works for Business';
     <!--Import footer tag-->
     <?php include('./includes/footer.php'); ?>
     <!--Import footer tag-->
+
+    <!--Import JS-->
+    <script src="./js/resultGeneration.js"></script>
+    <!--Import JS-->
 
 </main>
 </body>

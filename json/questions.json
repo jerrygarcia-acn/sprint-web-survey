@@ -15,7 +15,7 @@
         "4": "Monthly",
         "5": "Weekly/Daily"
       },
-      "impactToScore": "N",
+      "impactToScore": false,
       "industryGroups": [
         "HEP",
         "Task",
@@ -37,7 +37,7 @@
         "3": "Moderate",
         "5": "High"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -59,7 +59,7 @@
         "4": "Above Average",
         "5": "Leading"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "task": "Task",
       "industryGroups": [
         "HEP",
@@ -83,7 +83,7 @@
         "4": "55% or more",
         "5": "75% or more"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -104,7 +104,7 @@
         "3": "All Company Owned",
         "5": "Both"
       },
-      "impactToScore": "N",
+      "impactToScore": false,
       "industryGroups": [
         "HEP",
         "Task",
@@ -127,7 +127,7 @@
         "4": "All Employees but with app limitations",
         "5": "All Employees with no app limitations"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -148,7 +148,7 @@
         "3": "We focus more on Employee Satisfaction",
         "5": "Both Factors are equally important"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -170,7 +170,7 @@
         "3": "Planned to include by 2020",
         "5": "Already Implemented"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -192,7 +192,7 @@
         "4": "Minor Effort",
         "5": "Low Effort"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -215,7 +215,7 @@
         "4": "Detailed Plans",
         "5": "Already Implemented"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -238,7 +238,7 @@
         "4": "Moderately Satisfied",
         "5": "Very Satisfied"
       },
-      "impactToScore": "N",
+      "impactToScore": false,
       "industryGroups": [
         "HEP",
         "Task",
@@ -261,7 +261,7 @@
         "4": "Slightly Concerned",
         "5": "Not at all Concerned"
       },
-      "impactToScore": "N",
+      "impactToScore": false,
       "industryGroups": [
         "HEP",
         "Task",
@@ -284,7 +284,7 @@
         "4": "Select Process Groups",
         "5": "Open to Anyone"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -307,7 +307,7 @@
         "4": "Expand Communication Tools",
         "5": "Expand Productivity Apps"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -330,7 +330,7 @@
         "4": "More than 75%",
         "5": "More than 95%"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "Knowledge"
       ],
@@ -351,7 +351,7 @@
         "4": "Moderately",
         "5": "Very"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "Knowledge"
       ],
@@ -372,7 +372,7 @@
         "4": "Minor Effort",
         "5": "Low Effort"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task"
@@ -394,7 +394,7 @@
         "4": "High Priority",
         "5": "Essential"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task"
@@ -416,7 +416,7 @@
         "4": "Majority",
         "5": "All"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task"
@@ -438,7 +438,7 @@
         "4": "Majority",
         "5": "All"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task"
@@ -460,7 +460,7 @@
         "4": "Previous & Apple, Android, and/or PayPay",
         "5": "Previous & Chase, Visa, Mastercard, and/or Samsung"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "Task"
       ],
@@ -481,7 +481,7 @@
         "4": "Accepting within the year",
         "5": "Already Accept"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "Task"
       ],
@@ -502,7 +502,7 @@
         "4": "Moderately Prepared",
         "5": "Very Prepared"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP"
       ],
@@ -523,7 +523,7 @@
         "4": "Moderately Prepared",
         "5": "Very Prepared"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP"
       ],
@@ -544,7 +544,7 @@
         "4": "More than 75%",
         "5": "More than 95%"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "Knowledge"
       ],
@@ -565,7 +565,7 @@
         "4": "More than 75%",
         "5": "More than 95%"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "Knowledge"
       ],
@@ -586,7 +586,7 @@
         "4": "Moderate",
         "5": "High"
       },
-      "impactToScore": "N",
+      "impactToScore": false,
       "industryGroups": [
         "Knowledge"
       ],
@@ -607,7 +607,7 @@
         "4": "Equipping at least 25% over 3 years",
         "5": "Equipping more than 50% over 5 years"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "Knowledge"
       ],
@@ -628,7 +628,7 @@
         "4": "Majority of Teams",
         "5": "Entire Organization"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -651,7 +651,7 @@
         "4": "Majority of Teams",
         "5": "Entire Organization"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -674,7 +674,7 @@
         "4": "Previous & to data",
         "5": "Previous & to systems"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -697,7 +697,7 @@
         "4": "Software-Defined Security",
         "5": "AI Security"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -719,7 +719,7 @@
         "4": "Previous & targeted attacks",
         "5": "Previous & can self-heal"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -741,7 +741,7 @@
         "3": "Previous & bandwidth",
         "5": "Previous & security threats"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -764,7 +764,7 @@
         "4": "Within an hour",
         "5": "Near-Real Time"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -787,7 +787,7 @@
         "4": "Moderately",
         "5": "Very"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -810,7 +810,7 @@
         "4": "Quarterly",
         "5": "Monthly"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -833,7 +833,7 @@
         "4": "More than 75%",
         "5": "More than 95%"
       },
-      "impactToScore": "N",
+      "impactToScore": false,
       "industryGroups": [
         "HEP",
         "Task",
@@ -854,7 +854,7 @@
         "3": "Role Exists",
         "5": "Yes"
       },
-      "impactToScore": "N",
+      "impactToScore": false,
       "industryGroups": [
         "HEP",
         "Task",
@@ -876,7 +876,7 @@
         "3": "Leadership Discussion",
         "5": "Detailed Plans"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -899,7 +899,7 @@
         "4": "Medium or Routine",
         "5": "Low or Discretionary"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -922,7 +922,7 @@
         "4": "High",
         "5": "Essential"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -945,7 +945,7 @@
         "4": "Instant Communication With a Record",
         "5": "Automated Insights and Responses"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP"
       ],
@@ -966,7 +966,7 @@
         "4": "Instant Communication With a Record",
         "5": "Automated Insights and Responses"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP"
       ],
@@ -986,7 +986,7 @@
         "4": "Collecting essential and detailed data",
         "5": "Providing Analytics on Data"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task"
@@ -1008,7 +1008,7 @@
         "4": "Planning a Full Roll Out",
         "5": "Planning for an complete overhaul"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task"
@@ -1030,7 +1030,7 @@
         "4": "High",
         "5": "Critical"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1053,7 +1053,7 @@
         "4": "Moderately",
         "5": "Extremely"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1076,7 +1076,7 @@
         "4": "Majority",
         "5": "All"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "Task",
         "Knowledge"
@@ -1098,7 +1098,7 @@
         "4": "Moderately",
         "5": "Extremely"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "Task",
         "Knowledge"
@@ -1120,7 +1120,7 @@
         "4": "Customers",
         "5": "Supplies & Goods"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1143,7 +1143,7 @@
         "4": "Sub-Section",
         "5": "Section"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1166,7 +1166,7 @@
         "4": "Three",
         "5": "Four or More"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1189,7 +1189,7 @@
         "4": "Detailed Plans",
         "5": "Already Implemented"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1212,7 +1212,7 @@
         "4": "Moderately",
         "5": "Highly"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1235,7 +1235,7 @@
         "4": "Moderately",
         "5": "Highly"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1257,7 +1257,7 @@
         "4": "Minor Effort",
         "5": "Low Effort "
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1280,7 +1280,7 @@
         "4": "Detailed Plans",
         "5": "Already Implemented"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1303,7 +1303,7 @@
         "4": "High Priority",
         "5": "Essential"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1326,7 +1326,7 @@
         "4": "High Priority",
         "5": "Essential"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1349,7 +1349,7 @@
         "4": "Operational Improvements",
         "5": "Financial Insights"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1372,7 +1372,7 @@
         "4": "Operational Improvements",
         "5": "Financial Insights"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1395,7 +1395,7 @@
         "4": "Dashboards & Automated Insights",
         "5": "Cloud-Based AI Insights & Dashboards"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1418,7 +1418,7 @@
         "4": "Dashboards & Automated Insights",
         "5": "Cloud-Based AI Insights & Dashboards"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1441,7 +1441,7 @@
         "4": "Somewhat Probable",
         "5": "Very Probable"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1463,7 +1463,7 @@
         "3": "Moderate",
         "5": "High"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1486,7 +1486,7 @@
         "4": "Somewhat More Competitive",
         "5": "More Competitive"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1509,7 +1509,7 @@
         "4": "Within 1 year",
         "5": "Current Market Leader"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1532,7 +1532,7 @@
         "4": "Collaboration",
         "5": "Communication of Vision"
       },
-      "impactToScore": "N",
+      "impactToScore": false,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1555,7 +1555,7 @@
         "4": "Collaboration",
         "5": "Communication of Vision"
       },
-      "impactToScore": "N",
+      "impactToScore": false,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1578,7 +1578,7 @@
         "4": "Moderately",
         "5": "Extremely"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1600,7 +1600,7 @@
         "3": "Moderate",
         "5": "High"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1623,7 +1623,7 @@
         "4": "Moderately",
         "5": "A Great Deal"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "Task",
         "Knowledge"
@@ -1645,7 +1645,7 @@
         "4": "Detailed Plans",
         "5": "Already Utilizing"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "Task",
         "Knowledge"
@@ -1667,7 +1667,7 @@
         "3": "Within SLAs",
         "5": "Under SLAs"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1690,7 +1690,7 @@
         "4": "Detailed Plans",
         "5": "Already Implemented"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1713,7 +1713,7 @@
         "4": "Moderately",
         "5": "Extremely"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1736,7 +1736,7 @@
         "4": "Moderate",
         "5": "Major"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1757,7 +1757,7 @@
         "3": "Moderate Effort",
         "5": "Minor Effort "
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP"
       ],
@@ -1778,7 +1778,7 @@
         "4": "High",
         "5": "Already Included"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP"
       ],
@@ -1799,7 +1799,7 @@
         "4": "National",
         "5": "Global"
       },
-      "impactToScore": "N",
+      "impactToScore": false,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1822,7 +1822,7 @@
         "4": "National",
         "5": "Global"
       },
-      "impactToScore": "N",
+      "impactToScore": false,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1845,7 +1845,7 @@
         "4": "Financial",
         "5": "Intellectual Property/Scarity of Resources"
       },
-      "impactToScore": "N",
+      "impactToScore": false,
       "industryGroups": [
         "Task",
         "Knowledge"
@@ -1867,7 +1867,7 @@
         "4": "50-100",
         "5": "100+"
       },
-      "impactToScore": "N",
+      "impactToScore": false,
       "industryGroups": [
         "Task",
         "Knowledge"
@@ -1889,7 +1889,7 @@
         "3": "Technical Barriers",
         "5": "None - We're Open to Strategic Partners"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1912,7 +1912,7 @@
         "4": "Somewhat Probable",
         "5": "Very Probable"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1934,7 +1934,7 @@
         "4": "Somewhat",
         "5": "Slightly"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1957,7 +1957,7 @@
         "4": "Looking at a culture change",
         "5": "Looking at a culture and policy change"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -1980,7 +1980,7 @@
         "4": "Well Known and Relatable",
         "5": "Well Known and Very Relatable"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -2003,7 +2003,7 @@
         "4": "Mid-Level",
         "5": "Entry-Level"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -2026,7 +2026,7 @@
         "4": "Agile",
         "5": "Agile & Design Thinking"
       },
-      "impactToScore": "N",
+      "impactToScore": false,
       "industryGroups": [
         "HEP",
         "Task",
@@ -2049,7 +2049,7 @@
         "4": "Detailed Plans",
         "5": "In Flight"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -2072,7 +2072,7 @@
         "4": "Moderately",
         "5": "Highly"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -2095,7 +2095,7 @@
         "4": "Organization Changes",
         "5": "Technology Changes"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -2117,7 +2117,7 @@
         "4": "Moderate",
         "5": "High"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",
@@ -2139,7 +2139,7 @@
         "4": "Self-Organizing Teams",
         "5": "Autonomous Teams"
       },
-      "impactToScore": "Y",
+      "impactToScore": true,
       "industryGroups": [
         "HEP",
         "Task",

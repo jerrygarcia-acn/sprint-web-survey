@@ -25,7 +25,7 @@ $pageTitle = 'Sprint | Works for Business';
                     </div>
                     <div class="row m-0">
                         <div class="col-12 pt-5">
-                            <form action="resultPage.php" method="post" class="form" id="submitCompanyInformation">
+                            <form action="resultPage.php" method="post" class="form" id="userInfoForm">
                                 <div class="row m-0">
                                     <div class="col-12 col-md-6">
                                         <label class="bold-subtitle" for="firstName">First Name: *</label>
@@ -164,6 +164,10 @@ $pageTitle = 'Sprint | Works for Business';
     <!--Import footer tag-->
     <?php include('./includes/footer.php'); ?>
     <!--Import footer tag-->
+
+    <!--Import JS-->
+    <script src="./js/userInformation.js"></script>
+    <!--Import JS-->
 
 </main>
 </body>
