@@ -7,7 +7,7 @@
       "principle": "General",
       "question": "How often do you hear from employees to adopt digital technologies?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Not at all",
         "1": "Annually",
@@ -30,7 +30,7 @@
       "principle": "General",
       "question": "What is the level of commitment, in 2020, to invest in a digital workforce?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "None",
         "1": "Low",
@@ -52,7 +52,7 @@
       "principle": "General",
       "question": "How would you rate your employee's ability to use digital technology? ",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Below Average",
         "3": "Average",
@@ -75,7 +75,7 @@
       "principle": "General",
       "question": "What are your targets for employee training that equips them with new digital skills by 2020?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Less than 15%",
         "2": "15% or more",
@@ -98,7 +98,7 @@
       "principle": "BYOD Ready",
       "question": "Which mobile strategy fits your company better?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Only BYOD",
         "3": "All Company Owned",
@@ -119,7 +119,7 @@
       "principle": "BYOD Ready",
       "question": "What are your plans, in 2020, to allow employees to bring and use their own applications for work?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Plans",
         "1": "Won't Allow",
@@ -142,7 +142,7 @@
       "principle": "BYOD Ready",
       "question": "What is the role of balancing business needs and employee satisfaction in your BYOD decisions?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "We focus more on Business Needs",
         "3": "We focus more on Employee Satisfaction",
@@ -163,7 +163,7 @@
       "principle": "BYOD Ready",
       "question": "What is the priority to include mobility reward programs to improve employee satisfaction in 2020?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Plans",
         "1": "Low Priority",
@@ -185,7 +185,7 @@
       "principle": "BYOD Ready",
       "question": "What is the level of effort required for employees to set up their own device into your enterprise with access to email, applications, and systems?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Major Effort",
         "2": "Moderate Effort",
@@ -207,7 +207,7 @@
       "principle": "BYOD Ready",
       "question": "How much have you planned for the challenges that growing device options and varied interface designs will impact device management and security in 2020?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Plans",
         "1": "Leadership Discussion",
@@ -230,7 +230,7 @@
       "principle": "BYOD Ready",
       "question": "How satisfied are you with the amount of company resources allocated to managing your BYOD policy?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Not at all Satisfied",
         "1": "Slightly Dissatisfied",
@@ -253,7 +253,7 @@
       "principle": "BYOD Ready",
       "question": "How concerned are you of your BYOD policy becoming more costly, over the next few years, to manage than the value it brings?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Highly Concerned",
         "2": "Moderately Concerned",
@@ -276,7 +276,7 @@
       "principle": "Work From Anywhere",
       "question": "What is your policy on letting your employees work anywhere?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Not allowed",
         "1": "Select Seniority/Level",
@@ -299,7 +299,7 @@
       "principle": "Work From Anywhere",
       "question": "How will you address a mobile-first workforce empowered by 5G? (Select all that apply)",
       "subtext": "",
-      "questionType": "Multi-Select",
+      "questionType": "multiple-answer",
       "answers": {
         "1": "Expand Acceptable Device Policy",
         "2": "Expand Access to Company Provided Devices",
@@ -322,7 +322,7 @@
       "principle": "Work From Anywhere",
       "question": "How much of your workforce has access to internet-based communications?",
       "subtext": "e.g. messaging, voice, video, desktop sharing",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Less than 25%",
         "2": "More than 25%",
@@ -343,7 +343,7 @@
       "principle": "Work From Anywhere",
       "question": "How significant would it be to have AI-enhanced collaboration tools assisting your employees with day-to-day activities or in meetings?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Not Significant",
         "1": "Slightly",
@@ -364,7 +364,7 @@
       "principle": "Work From Anywhere",
       "question": "What is the level of effort required in locating, managing, and instantly communicating with your mobile workforce?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Such Capability",
         "1": "Major Effort",
@@ -386,7 +386,7 @@
       "principle": "Work From Anywhere",
       "question": "How much are you prioritizing security and maintaining confidentiality while managing your mobile workforce?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Not a Priority",
         "1": "Low Priority",
@@ -408,7 +408,7 @@
       "principle": "Work From Anywhere",
       "question": "How much of your forms are able to be filled and digitally signed on a mobile device?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "None",
         "1": "Some",
@@ -430,7 +430,7 @@
       "principle": "Work From Anywhere",
       "question": "By 2020, how much of the digital form data will be automated into business processes?",
       "subtext": "e.g. Analytics, Auto-Attachments, Training Data for AI/ML",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "None",
         "1": "Some",
@@ -452,7 +452,7 @@
       "principle": "Work From Anywhere",
       "question": "What forms of payment can your mobile workforce accept?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "None",
         "1": "Magnetic Credit Card Only",
@@ -473,7 +473,7 @@
       "principle": "Work From Anywhere",
       "question": "How are you considering addressing cryptocurrencies as a form of payment over the next few years?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Will not Accept",
         "1": "Have not Considered",
@@ -494,7 +494,7 @@
       "principle": "Work From Anywhere",
       "question": "How prepared are your employees and business to comply with all aspects of information and privacy laws in order to provide your service?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Not Prepared",
         "1": "Slightly Prepared",
@@ -515,7 +515,7 @@
       "principle": "Work From Anywhere",
       "question": "How well are you prepared to address the following compliance challenges over the next few years- storage requirements, new forms of data, and BYOx?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Not Prepared",
         "1": "Slightly Prepared",
@@ -536,7 +536,7 @@
       "principle": "Work From Anywhere",
       "question": "What percentage of your workforce - employees & contractors - based on their role and work, could work remotely?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Less than 25%",
         "2": "More than 25%",
@@ -557,7 +557,7 @@
       "principle": "Work From Anywhere",
       "question": "Of the percentage that could work remotely, what is your target percentage to enable to work remotely by 2020?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Less than 25%",
         "2": "More than 25%",
@@ -578,7 +578,7 @@
       "principle": "Work From Anywhere",
       "question": "How valuable is it to your employees to provide them with a company provided phone and connectivity?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Value",
         "1": "Unsure",
@@ -599,7 +599,7 @@
       "principle": "Work From Anywhere",
       "question": "What are your plans to equip your employees with next-gen mobile connected devices by 2020?",
       "subtext": "(e.g. Convertible Tablets & Laptops, Wearables & Smart Clothing, HUD & Immersive Displays)",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Plans",
         "1": "Discussions but no targets",
@@ -620,7 +620,7 @@
       "principle": "Everything Now",
       "question": "What level of your workforce, based on role-based access rules, are able to access time-sensitive data accurately, from any device, from anywhere?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "None",
         "1": "Leadership Only",
@@ -643,7 +643,7 @@
       "principle": "Everything Now",
       "question": "What is your goal for 2020?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "None",
         "1": "Leadership Only",
@@ -666,7 +666,7 @@
       "principle": "Everything Now",
       "question": "What level of secure access does your mobile workforce have to email/communications, applications, data, and systems?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Secure Access",
         "1": "Only to communications",
@@ -689,7 +689,7 @@
       "principle": "Everything Now",
       "question": "What network security systems are you looking at implementing in 2020, in order for your network to adapt to new attack vectors?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Hardware Driven",
         "2": "Virtualized Networks",
@@ -712,7 +712,7 @@
       "principle": "Everything Now",
       "question": "How resilient is your network to continue to provide normal operations to your mobile workforce?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Can withstand normal increase in traffic",
         "2": "Previous & high demands for short periods",
@@ -734,7 +734,7 @@
       "principle": "Everything Now",
       "question": "With an increasing number of devices, larger datasets, and more security threats, what additional stressors to your network are you addressing?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Plans",
         "1": "Addressing only increase access",
@@ -756,7 +756,7 @@
       "principle": "Everything Now",
       "question": "How close to event occurrence are you able to process strategic and operational data and present it visually with limited delays?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Exceeds a day",
         "2": "Within 4 hours",
@@ -779,7 +779,7 @@
       "principle": "Everything Now",
       "question": "How significant will UAVs, connected cameras, or other devices that can provide difficult to process data as an aid to employees?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Not Significant",
         "1": "Slightly",
@@ -802,7 +802,7 @@
       "principle": "General",
       "question": "How often do you research digital technologies that will enable and make your business more efficient?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Every 2 years",
         "1": "Annually",
@@ -825,7 +825,7 @@
       "principle": "General",
       "question": "Of the technologies that you've researched, how many do you think you'll implement by 2020?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Less than 25%",
         "2": "More than 25%",
@@ -848,7 +848,7 @@
       "principle": "General",
       "question": "Do you have a role under the CTO or any other executive who is leading your digitalization effort?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No",
         "3": "Role Exists",
@@ -869,7 +869,7 @@
       "principle": "General",
       "question": "Do you have plans to have a Chief Digital Officer (or Office) who continue to lead your digitalization effort in 2020 and beyond?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Plans",
         "2": "Role to Exist under other Executive",
@@ -891,7 +891,7 @@
       "principle": "Connected Things & Places",
       "question": "What is the level of data collection from your places of business, things you own, your employees, and your customers? (Select all that apply)",
       "subtext": "",
-      "questionType": "Multi-Select",
+      "questionType": "multiple-answer",
       "answers": {
         "1": "Emergency or Life-Threatening",
         "2": "Business Critical",
@@ -914,7 +914,7 @@
       "principle": "Connected Things & Places",
       "question": "What is your priority in expanding IoT capabilities and utilizing IoT Platforms by 2020?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Plans",
         "1": "Low",
@@ -937,7 +937,7 @@
       "principle": "Connected Things & Places",
       "question": "How connected are you with your field employees to ensure their safety and compliance with laws and policies?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Slow Communication and/or Not Recorded",
         "2": "Slow Communication With a Record",
@@ -958,7 +958,7 @@
       "principle": "Connected Things & Places",
       "question": "What are your targets for 2020?",
       "subtext": "e.g. Injury Detection, Body Cameras, Field Team Notifications & Alerts",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Plans",
         "1": "Slow Communication With a Record",
@@ -979,7 +979,7 @@
       "principle": "Connected Things & Places",
       "question": "How would you rate your current capability to collect data regarding your fleet and assets?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Not Thorough or Reliable",
         "2": "Collecting essential data",
@@ -1000,7 +1000,7 @@
       "principle": "Connected Things & Places",
       "question": "How are you preparing for predictive and intelligent fleet and asset scheduling and cost management in 2020?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Plan",
         "1": "Planning a Test Run",
@@ -1022,7 +1022,7 @@
       "principle": "Connected Things & Places",
       "question": "How criticial is having connectivity for always on for automated POS (e.g. vending machines, ATMs, etc) or remote monitoring stations?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Not Needed",
         "1": "Low",
@@ -1045,7 +1045,7 @@
       "principle": "Connected Things & Places",
       "question": "What is your target amount to grow your current implementation of automated places of business or remote monitoring equipment in 2020? ",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Plans",
         "1": "Slightly",
@@ -1068,7 +1068,7 @@
       "principle": "Connected Things & Places",
       "question": "How much of your job aids and documentation are you providing on a digital device that enhances and improves employees work?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "None",
         "1": "Some",
@@ -1090,7 +1090,7 @@
       "principle": "Connected Things & Places",
       "question": "How much are you planning to invest in and adopt immersive visual devices* to enhance and improve employees work?",
       "subtext": "Augmented Reality, Virtual Reality, and Volumetric Displays",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Plans",
         "1": "Slightly",
@@ -1112,7 +1112,7 @@
       "principle": "Connected Things & Places",
       "question": "Which of the following areas do you collect data from? (Select all that apply)",
       "subtext": "",
-      "questionType": "Multi-Select",
+      "questionType": "multiple-answer",
       "answers": {
         "1": "Buildings/Outside",
         "2": "Equipment & Devices",
@@ -1135,7 +1135,7 @@
       "principle": "Connected Things & Places",
       "question": "How much of your 2020 strategy and vision will address 5G and IoT Everywhere? ",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "None",
         "1": "Sub-Paragraph",
@@ -1158,7 +1158,7 @@
       "principle": "Automation & Control",
       "question": "How much of the major process groups* have the ability to monitor, control, and automate processes and/or assets in your business?",
       "subtext": "Sales & Marketing, Operations, Finance, HR, Supply Chain",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "None",
         "1": "One",
@@ -1181,7 +1181,7 @@
       "principle": "Automation & Control",
       "question": "What are your plans to move into cloud-based solutions that provide Open APIs in order to automate processes both internally and externally by 2020?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Plans",
         "1": "Leadership Discussion",
@@ -1204,7 +1204,7 @@
       "principle": "Automation & Control",
       "question": "How much have you invested in remote monitoring to improve the efficiency, safety, or \"green-ness\" of equipment or buildings?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Not at all",
         "1": "Slightly",
@@ -1227,7 +1227,7 @@
       "principle": "Automation & Control",
       "question": "How much do you plan to adopt more remote monitoring to continue to improve the previous qualities and the quality of life for employees or customers?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Change",
         "1": "Slightly",
@@ -1250,7 +1250,7 @@
       "principle": "Automation & Control",
       "question": "What is the level of effort required for your customers book appointments digitally with all necessary communications?",
       "subtext": "e.g. online, mobile app, messaging app, sms, or voice assistant ",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Major Effort",
         "2": "Moderate Effort",
@@ -1272,7 +1272,7 @@
       "principle": "Automation & Control",
       "question": "What are your plans for implementing adaptive scheduling features to your calendar system by 2020?",
       "subtext": "e.g. accept cancellations and rebook automatically, set and update appointment length based on work",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Plans",
         "1": "Leadership Discussion",
@@ -1295,7 +1295,7 @@
       "principle": "Big Data & AI/ML",
       "question": "What is the internal priority of adopting big data & data analytics to discover hidden value in your business?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Not a Priority",
         "1": "Low Priority",
@@ -1318,7 +1318,7 @@
       "principle": "Big Data & AI/ML",
       "question": "What is the internal priority, for 2020, of adopting AI and/or Machine Learning into your value chain?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Not a Priority",
         "1": "Low Priority",
@@ -1341,7 +1341,7 @@
       "principle": "Big Data & AI/ML",
       "question": "Out of the areas where you collect data what insights are you focussing on in your analytics strategy? (Select all that apply)",
       "subtext": "",
-      "questionType": "Multi-Select",
+      "questionType": "multiple-answer",
       "answers": {
         "1": "Business Process Improvements",
         "2": "Customer & Marketing Insights",
@@ -1364,7 +1364,7 @@
       "principle": "Big Data & AI/ML",
       "question": "What insights are likely to be available to help drive value in 2020? (Select all that apply)",
       "subtext": "",
-      "questionType": "Multi-Select",
+      "questionType": "multiple-answer",
       "answers": {
         "1": "Business Process Improvements",
         "2": "Customer & Marketing Insights",
@@ -1387,7 +1387,7 @@
       "principle": "Big Data & AI/ML",
       "question": "What level of analytics does your current IoT and Fleet & Asset Tracking capabilities provide?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "None",
         "1": "Manual Repetitive Analysis",
@@ -1410,7 +1410,7 @@
       "principle": "Big Data & AI/ML",
       "question": "What are your targets for analytics of data collected from you IoT devices and sensors?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Targets",
         "1": "Manual Repetitive Analysis",
@@ -1433,7 +1433,7 @@
       "principle": "Big Data & AI/ML",
       "question": "What is the probability in adopting intelligent and automated equipment drive and improve certain aspects of your business?",
       "subtext": "(Pepper, Autonomous Vehicles, other AI/EI based machinery)",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Not Probable",
         "1": "Somewhat Improbable",
@@ -1456,7 +1456,7 @@
       "principle": "Big Data & AI/ML",
       "question": "How much do you plan on making new or further investments into intelligent and automated equipment?",
       "subtext": "(Pepper, Autonomous Vehicles, other AI/EI based machinery)",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Plans",
         "1": "Low",
@@ -1478,7 +1478,7 @@
       "principle": "General",
       "question": "How would you rate your competitiveness today compared to 3 years ago?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Less Competitive",
         "1": "Somewhat Less Competitive",
@@ -1501,7 +1501,7 @@
       "principle": "General",
       "question": "What is your target growth rate to move up in how competitive you see yourself?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Within 5 years",
         "1": "Within 3 years",
@@ -1524,7 +1524,7 @@
       "principle": "General",
       "question": "What factors do you attribute to either your growth or loss in competitiveness over the last 5 years?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Employee Empowerment",
         "2": "Experimentation",
@@ -1547,7 +1547,7 @@
       "principle": "General",
       "question": "What factors do you want to focus on to improve or maintain your competitiveness?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Employee Empowerment",
         "2": "Experimentation",
@@ -1570,7 +1570,7 @@
       "principle": "Expecting Change",
       "question": "How adeptly can your business respond to change and pivot to something new or scale up to meet customer expectations?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Not",
         "1": "Slightly",
@@ -1593,7 +1593,7 @@
       "principle": "Expecting Change",
       "question": "What is level of commitment, in 2020, to adopt and invest in emerging technologies such as blockchain, smart robots, and smart workspaces? ",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "None",
         "1": "Low",
@@ -1615,7 +1615,7 @@
       "principle": "Expecting Change",
       "question": "How much do your employees use a knowledge sharing platform to collaborate on upcoming trends and market changes? ",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No platform exists",
         "1": "Rarely",
@@ -1637,7 +1637,7 @@
       "principle": "Expecting Change",
       "question": "What level of plans exist to either create such a platform or expand the platform to vendors, suppliers, or strategic partners by 2020?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No plan",
         "1": "Won't Allow External Partners",
@@ -1659,7 +1659,7 @@
       "principle": "Expecting Change",
       "question": "With your current ERP configuration, how long does it take to get to business as usual and avoid waiting time and delays?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Highly Exceeds SLAs",
         "1": "Somewhat Exceeds SLAs",
@@ -1682,7 +1682,7 @@
       "principle": "Expecting Change",
       "question": "What plans do you have to upgrade to the next-gen ERP solutions to enhance your system supported decision making, not only the value and time criticality but also risk reduction and opportunity enablement?",
       "subtext": "eg. Dynamics365 or SAP HANA",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Plans",
         "1": "Leadership Discussion",
@@ -1705,7 +1705,7 @@
       "principle": "Expecting Change",
       "question": "When challenges arise or you have an increase demand because of seasonality or milestones, how effectively can you respond internally and externally?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Not",
         "1": "Slightly",
@@ -1728,7 +1728,7 @@
       "principle": "Expecting Change",
       "question": "How much resources are you planning on allocating to improve your internal processes & tools in order to respond to challenges?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No plans",
         "1": "Low",
@@ -1751,7 +1751,7 @@
       "principle": "Expecting Change",
       "question": "What is the level of effort required for one of your locations to undergo a system transformation?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Major Effort",
         "3": "Moderate Effort",
@@ -1770,7 +1770,7 @@
       "principle": "Expecting Change",
       "question": "What is the priority to include responsive communication, continuous learning, and success measurements for change management?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Plans",
         "1": "Low",
@@ -1791,7 +1791,7 @@
       "principle": "Marketplace Disruptor",
       "question": "What is your current geographical footprint in the marketplace?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Local",
         "2": "Regional",
@@ -1814,7 +1814,7 @@
       "principle": "Marketplace Disruptor",
       "question": "And what is your target growth into the marketplace?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Local",
         "2": "Regional",
@@ -1837,7 +1837,7 @@
       "principle": "Marketplace Disruptor",
       "question": "Which barriers exist that impact your company's speed to market capability? (Select all that apply)",
       "subtext": "",
-      "questionType": "Multi-Select",
+      "questionType": "multiple-answer",
       "answers": {
         "1": "Organizational",
         "2": "Technological",
@@ -1859,7 +1859,7 @@
       "principle": "Marketplace Disruptor",
       "question": "How many new locations, be it for the short-term or long-term, do you plan to open by 2020?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Do not wish to disclose",
         "2": "1-10",
@@ -1881,7 +1881,7 @@
       "principle": "Marketplace Disruptor",
       "question": "What barriers exist if any to form a strategic partnership to create a joint solution?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Not Open or Not Possible",
         "1": "Organizational & Technical Barriers",
@@ -1904,7 +1904,7 @@
       "principle": "Marketplace Disruptor",
       "question": "By 2020, what is the probability that you would form a strategic partnership to become more competitive? ",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Not Probable",
         "1": "Somewhat Improbable",
@@ -1927,7 +1927,7 @@
       "principle": "Marketplace Disruptor",
       "question": "How much impact would you say internal inefficiencies affect the ability of your business to continue to be competitive?",
       "subtext": "e.g. Silos or Information Flow",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Extremely",
         "2": "Moderately",
@@ -1949,7 +1949,7 @@
       "principle": "Marketplace Disruptor",
       "question": "What plans exist to change corporate policy and culture to empower employees to break the status-quo and create differentiation for the company?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No plans",
         "1": "Internal Leadership Discussion",
@@ -1972,7 +1972,7 @@
       "principle": "Visionary Innovation",
       "question": "Internally, how well known is your company's vision or goal, and can all employees relate to that goal?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Not Well Known or Relatable",
         "1": "Known but difficult to Relate to",
@@ -1995,7 +1995,7 @@
       "principle": "Visionary Innovation",
       "question": "How thoroughly do you plan to measure individual contributions to the vision from Executives to Entry-Level employees with the support of HR systems?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No Plans",
         "1": "Executives",
@@ -2018,7 +2018,7 @@
       "principle": "Visionary Innovation",
       "question": "What is your approach to product/service development and experimentation?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Traditional R&D ",
         "2": "Traditional with multiple Departments",
@@ -2041,7 +2041,7 @@
       "principle": "Visionary Innovation",
       "question": "What plans have you made to include human-centered solution design as part of your innovation process?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "No plans",
         "1": "Internal Leadership Discussion",
@@ -2064,7 +2064,7 @@
       "principle": "Visionary Innovation",
       "question": "How invested are your employees, in your vision, to create internal or product/service innovations that bring that vision closer to completion?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "0": "Not at all",
         "1": "Slightly",
@@ -2087,7 +2087,7 @@
       "principle": "Visionary Innovation",
       "question": "What are your plans in 2020 to drive innovation inside your company to become more competitive? (Select all that apply)",
       "subtext": "",
-      "questionType": "Multi-Select",
+      "questionType": "multiple-answer",
       "answers": {
         "1": "Increase Budgets",
         "2": "Procedure Changes",
@@ -2110,7 +2110,7 @@
       "principle": "Visionary Innovation",
       "question": "How much authority do employees have and know they have to bring and implement new ideas and technology to create efficiency or differentiation?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Low",
         "2": "Somewhat",
@@ -2132,7 +2132,7 @@
       "principle": "Visionary Innovation",
       "question": "How do you plan to organize your departments and teams in 2020 to encourages experimentation with new ideas and technology?",
       "subtext": "",
-      "questionType": "Drop-Down Single Selection",
+      "questionType": "single-answer",
       "answers": {
         "1": "Functional Teams",
         "3": "Cross-Functional Teams",

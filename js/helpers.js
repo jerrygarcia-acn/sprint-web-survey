@@ -14,6 +14,25 @@ const CompanyInformation = (function (companyName, industry, sector, employees, 
     this.sector = sector;
     this.employees = employees;
     this.currentBusiness = currentBusiness;
+})
+
+//Answer object declaration
+const Answer = (function (todayQuestionType, futureQuestionType) {
+    this.todayQuestionType = todayQuestionType;
+    this.futureQuestionType = futureQuestionType;
+    this.todayAnswers = [];
+    this.futureAnswers = [];
+});
+
+//User info object declaration
+const UserInfo = (function (firstName, lastName, department, zipCode, title, phone, email) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.department = department;
+    this.zipCode = zipCode;
+    this.title = title;
+    this.phone = phone;
+    this.email = email;
 });
 
 //OBJECT DECLARATIONS

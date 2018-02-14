@@ -125,7 +125,12 @@ $(document).ready(function () {
 			if (i == 0) {
 				var todayQuestionInfo = questions[i].questionId + "|" + questions[i].time + "|" + questions[i].trend + "|" + questions[i].impactToScore + "|" + questions[i].questionType;
 				var futureQuestionInfo = questions[j].questionId + "|" + questions[j].time + "|" + questions[j].trend + "|" + questions[j].impactToScore + "|" + questions[j].questionType;
-				var str1 = "<div class='Sprint-Slides sprint-slides-survey' style='display:block'><h4 class='questions-time'>Today</h4><h5>" + questions[i].question + "</h5><div class='row'><span name='questionInfo' style='display:none'>" + todayQuestionInfo + "</span><div class='btn-group btn-group-lg btn-vertical col-12 answersSquares' data-toggle='buttons'>";
+				var str1 = "<div class='Sprint-Slides sprint-slides-survey' style='display:block'>" +
+					"<h4 class='questions-time'>Today</h4>" +
+                    "<h5>" + questions[i].question + "</h5>" +
+                    "<div class='row'>" +
+                    "   <span name='questionInfo' style='display:none'>"+ todayQuestionInfo + "</span>" +
+                    "   <div class='btn-group btn-group-lg btn-vertical col-12 answersSquares' data-toggle='buttons'>";
 			
 				var str6 = [];
 				var questionTypeToday = questions[i].questionType;

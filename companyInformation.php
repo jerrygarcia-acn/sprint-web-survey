@@ -20,7 +20,7 @@ $pageTitle = 'Sprint | Works for Business';
                 <div class="col-12 col-md-6 p-0 pt-5 pb-4 limit-width">
                     <div class="row m-0">
                         <div class="col-12 col-12-Company">
-                            <h4>Tell us more about your company.</h4>
+                            <p class="h4">Tell us more about your company.</p>
                         </div>
                     </div>
                     <div class="row m-0">

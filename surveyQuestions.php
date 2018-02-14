@@ -18,48 +18,54 @@ $pageTitle = 'Sprint | Works for Business';
         <div class="container">
             <div class="row m-0">
                 <div class="col-12 col-md-6 p-0 pt-5 pb-4 limit-width">
-                    <form action="userInformation.php" method="post" class="form" novalidate="novalidate">
+                    <form action="userInformation.php" method="post" class="form" novalidate="novalidate" id="questionsForm">
                         <div class="row m-0">
-                            <div class="col-12" id="questionsCon">
-                                <input hidden name="company" id="company" value="">
-                                <input hidden name="sector" id="sector" value="">
-                                <input hidden name="employees" id="employees" value="">
-                                <input hidden name="currentBusiness" id="currentBusiness" value="">
-                                <input hidden id="answerStorageArray" name="answerStorageArray" value="">
-                                <input hidden id="jsonAnswer" name="jsonAnswer" value="">
-                                <div id="questionsContainer">
-                                    <!-- Here is adding the questions -->
+                            <div class="col-12" id="questionsContainer">
+                                <div class="row pb-5" id="today">
+                                    <div class="col-md-12 col-12" id="today-title">
+                                        <p class="h4 questions-time">Today</p>
+                                    </div>
+                                    <div class="col-md-12 col-12">
+                                        <p class="h5" id="today-question"></p>
+                                    </div>
+                                    <div class="col-md-12 col-12" id="today-subtext">
+                                        <!-- Today subtext -->
+                                    </div>
+                                    <div class="col-md-12 col-12 btn-vertical">
+                                        <div class="row" id="today-answers">
+                                            <!-- Today Answers -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row" id="future">
+                                    <div class="col-md-12 col-12" id="future-title">
+                                        <p class="h4 questions-time">Future</p>
+                                    </div>
+                                    <div class="col-md-12 col-12">
+                                        <p class="h5" id="future-question"></p>
+                                    </div>
+                                    <div class="col-md-12 col-12" id="future-subtext">
+                                        <!-- Future Subtext -->
+                                    </div>
+                                    <div class="col-md-12 col-12">
+                                        <div class="row" id="future-answers">
+                                            <!-- Future Answers -->
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-
-                            <div class="row m-0 nextBtnSurvey" id="hidemeondone">
-                                <div class="col-6 text-center" id="hidemeondone2">
-                                    <input type="button" id="prevBtnUserInfo1" value="Previous" class="previous">
-                                </div>
-                                <div class="col-6 text-center">
-                                    <input type="button" id="nextBtnUserInfo1" value="Next" class="submit">
-                                </div>
+                        </div>
+                        <div class="row m-0 pt-5 nextBtnSurvey">
+                            <div class="col-6 p-0 text-center">
+                                <input id='previousButton' type="button" value="Previous"
+                                       class="previous float-left">
                             </div>
-                            <!-- Hide until the end (SUBMIT) -->
-                            <div class="row m-0 pt-5 nextBtnSurvey" id="hidemetillend">
-                                <div class="col-6 text-center" id="hidemetillend2">
-                                    <input type="button" id="prevBtnUserInfo2" value="Previous" class="previous">
-                                </div>
-                                <div class="col-6 text-center">
-                                    <input type="submit" id="nextBtnUserInfo2" value="Next" class="submit">
-                                </div>
-                                <div class="col-6 p-0 text-center">
-                                    <input type="button" value="Previous"
-                                           class="previous float-left">
-                                </div>
-                                <div class="col-6 p-0 text-center">
-                                    <input type="submit" value="Next" class="submit float-right">
-                                </div>
-                                <div class="col-12">
-                                    <img class="hidden-md-up not-visible go-btn" src="./images/goBtn.jpg">
-                                </div>
+                            <div class="col-6 p-0 text-center">
+                                <input type="submit" value="Next" class="submit float-right">
                             </div>
-                            <!-- Hide until the end (SUBMIT) -->
+                            <div class="col-12">
+                                <img class="hidden-md-up not-visible go-btn" src="./images/goBtn.jpg">
+                            </div>
                         </div>
                     </form>
                 </div>
