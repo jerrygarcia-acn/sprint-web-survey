@@ -8,9 +8,15 @@
 
 class GlobalResults {
     public $trendResults = [];
-    public $currentPercentage;
-    public $futurePercentage;
+    public $currentPercentage = 0;
+    public $futurePercentage = 0;
+    public $currentPosition = 0;
+    public $futurePosition = 0;
+    public $currentMessage = '';
+    public $futureMessage = '';
+    public $positionChange = 0;
+    public $growthOutlook = 0;
     public $trendMessages = [];
-    public $industryBenchmarkPercentage;
-    public $industryBenchmarkMessage;
+    public $industryBenchmarkPercentage = '';
+    public $industryBenchmarkMessage = '';
 }

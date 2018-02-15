@@ -236,6 +236,7 @@
 	
 	//Competitiviness Score Messages
 	$narrativesJson = file_get_contents('../SprintSurvey/json/narratives.json');
+	$narrativesData = json_decode($narrativesJson);$narrativesJson = file_get_contents('../SprintSurvey/json/narratives.json');
 	$narrativesData = json_decode($narrativesJson);
 	foreach($narrativesData->Narratives as $narrative){
 

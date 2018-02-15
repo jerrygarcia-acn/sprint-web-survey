@@ -94,7 +94,7 @@ $pageTitle = 'Sprint | Works for Business';
     </section>
     <section>
         <div class="container">
-            <div class="row results-section3" id="DigitalizationMsg">
+            <div class="row results-section3 d-none" id="DigitalizationMessageContainer">
                 <div class="col-12 col-lg-2 results-score ">
                     <img src="./images/Trend1.jpg">
                 </div>
@@ -104,8 +104,8 @@ $pageTitle = 'Sprint | Works for Business';
                 </div>
                 <p class="hidden-md-up not-visible see-more-text-result">See More</p>
             </div>
-            <hr>
-            <div class="row results-section3" id="ChangingForceMsg">
+            <hr id="DigitalizationContainerDivider" class="d-none">
+            <div class="row results-section3 d-none" id="ChangingForceMessageContainer">
                 <div class="col-12 col-lg-2 results-score ">
                     <img src="./images/Trend2.jpg">
                 </div>
@@ -115,8 +115,8 @@ $pageTitle = 'Sprint | Works for Business';
                 </div>
                 <p class="hidden-md-up not-visible see-more-text-result">See More</p>
             </div>
-            <hr>
-            <div class="row results-section3" id="PredictableMsg">
+            <hr id="ChangingForceContainerDivider" class="d-none">
+            <div class="row results-section3 d-none" id="PredictableMessageContainer">
                 <div class="col-12 col-lg-2 results-score ">
                     <img src="./images/Trend3.jpg">
                 </div>
@@ -134,7 +134,7 @@ $pageTitle = 'Sprint | Works for Business';
                         <p id="retakeSurvey2" class="information-take-survey">Want to take the
                             <br>survey again?</p>
                         <p>
-                            <a id="SprintModalBtnResults2" class="survey-button" href="index.php">Retake
+                            <a id="SprintModalBtnResults2" class="submit" href="index.php">Retake
                                 Survey</a>
                         </p>
                     </div>

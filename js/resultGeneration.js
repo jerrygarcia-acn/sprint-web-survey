@@ -1,4 +1,4 @@
-//Get the results from
+//Get the resultss from
 function getSurveyResults() {
 
     const chosenPaths = Cookies.getJSON('chosenPaths');
@@ -14,7 +14,35 @@ function getSurveyResults() {
 
     $.post('./generateResults.php', postParameters)
         .done(function (data) {
-            console.log(JSON.parse(data));
+            const results = JSON.parse(data);
+
+            $("#CurrentScore").append(results.currentPercentage * 100 + '%');
+            $("#CurrentScoreMessage").append(results.currentMessage);
+            $("#FutureScore").append(results.futurePercentage * 100 + '%');
+            $("#FutureScoreMessage").append(results.futureMessage);
+            $("#IndustryScore").append(results.industryBenchmarkPercentage + '%');
+            $("#IndustryScoreMessage").append(results.industryBenchmarkMessage);
+
+            const trendMessages = results.trendMessages;
+
+            if (chosenPaths.digitalization) {
+                $("#DigitalizationMessage").append(trendMessages.digitalization);
+                $("#DigitalizationMessageContainer").removeClass('d-none');
+                $('#DigitalizationContainerDivider').removeClass('d-none');
+            }
+
+            if (chosenPaths.changingWorkforce) {
+                $("#ChangingForceMessage").append(trendMessages.changingWorkforce);
+                $("#ChangingForceMessageContainer").removeClass('d-none');
+                $('#ChangingForceContainerDivider').removeClass('d-none');
+            }
+
+            if (chosenPaths.predictableDisruption) {
+                $("#PredictableMessage").append(trendMessages.predictableDisruption);
+                $("#PredictableMessageContainer").removeClass('d-none');
+            }
+
+            console.log(trendMessages);
         });
 }
 
