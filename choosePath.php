@@ -76,15 +76,12 @@ $pageTitle = 'Sprint | Works for Business';
                                         <input id="choosePathNext" value="Next" class="submit float-right"
                                                type="submit">
                                     </div>
-                                    <div class="col-12">
-                                        <img class="hidden-md-up not-visible go-btn" src="./images/goBtn.jpg">
-                                    </div>
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
-                <div class="survey-sidebar hidden-md-down not-visible offset-md-2 col-md-4 col-12">
+                <div class="survey-sidebar sidebar-hidden offset-md-2 col-md-4 col-12" id="survey-sidebar-div">
                     <div class="survey-path-sidebar">
                         <div class="inner-survey-path yellow sideDesktop">
                         <span class="icon yellow">
@@ -121,14 +118,11 @@ $pageTitle = 'Sprint | Works for Business';
                                 <i class="fa fa-refresh"></i> Start Over
                             </button>
                         </div>
-                        <div id="SprintModal" class="SprintModal">
-                            <div class="SprintModal-content">
-                                <span class="close-SprintModal">&times;</span>
-                                <h4>Are you sure?</h4>
-                                <p>Your answers will not be saved</p>
-                                <a class="start-over-btn" id="start-over-btn">Start Over</a>
-                            </div>
-                        </div>
+
+                        <!--Start over modal import-->
+                        <?php include('./includes/startOverModal.php') ?>
+                        <!--Start over modal import-->
+
                     </div>
                 </div>
             </div>
@@ -142,6 +136,12 @@ $pageTitle = 'Sprint | Works for Business';
     <!-- Import choosePath.js -->
     <script src="./js/choosePath.js"></script>
     <!-- Import choosePath.js -->
+
+    <!--Show sidebar button-->
+    <button id="mobile-sidebar-button" class="btn d-sm-block d-md-none">
+        <span class="fa fa-chevron-right"></span>
+    </button>
+    <!--Show sidebar button-->
 
 </main>
 </body>

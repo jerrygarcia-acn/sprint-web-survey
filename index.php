@@ -110,6 +110,7 @@ $pageTitle = "This is a custom title";
     <!--Import navbar and header of page-->
     <?php include('./includes/footer.php') ?>
     <!--Import navbar and header of page-->
+
 </main>
 </body>
 </html>

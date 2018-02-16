@@ -1487,3 +1487,42 @@ div#errorChoosePathMsg {
     color:#777777;
     font-size:14px;
 }
+
+#mobile-sidebar-button {
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: #ffc20e;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: fixed;
+    top: 90%;
+    left: 85%;
+}
+
+@media (max-width: 768px) {
+    .sidebar-hidden {
+        position: fixed;
+        left: -100%;
+        height: 100%;
+        display: inline;
+        -webkit-transition: left 1s;
+        -moz-transition: left 1s;
+        -ms-transition: left 1s;
+        -o-transition: left 1s;
+        transition: left 1s;
+    }
+
+    .sidebar-shown {
+        position: fixed;
+        left: 20px;
+        height: 100%;
+        display: inline;
+        -webkit-transition: left 1s;
+        -moz-transition: left 1s;
+        -ms-transition: left 1s;
+        -o-transition: left 1s;
+        transition: left 1s;
+    }
+}

@@ -89,9 +89,6 @@ $pageTitle = 'Sprint | Works for Business';
                                     <div class="col-6 p-0 text-center">
                                         <input type="submit" value="Next" class="submit float-right">
                                     </div>
-                                    <div class="col-12">
-                                        <img class="hidden-md-up not-visible go-btn" src="./images/goBtn.jpg">
-                                    </div>
                                 </div>
                             </form>
                         </div>
@@ -134,14 +131,9 @@ $pageTitle = 'Sprint | Works for Business';
                                 <i class="fa fa-refresh"></i> Start Over
                             </button>
                         </div>
-                        <div id="SprintModal" class="SprintModal">
-                            <div class="SprintModal-content">
-                                <span class="close-SprintModal">&times;</span>
-                                <h4>Are you sure?</h4>
-                                <p>Your answers will not be saved</p>
-                                <a class="start-over-btn" id="start-over-btn">Start Over</a>
-                            </div>
-                        </div>
+                        <!--Start over modal import-->
+                        <?php include('./includes/startOverModal.php') ?>
+                        <!--Start over modal import-->
                     </div>
                 </div>
             </div>
@@ -155,6 +147,12 @@ $pageTitle = 'Sprint | Works for Business';
     <!--Load companyInformation.js-->
     <script src="./js/companyInformation.js"></script>
     <!--Load companyInformation.js-->
+
+    <!--Show sidebar button-->
+    <button id="mobile-sidebar-button" class="btn d-sm-block d-md-none">
+        <span class="fa fa-chevron-right"></span>
+    </button>
+    <!--Show sidebar button-->
 
 </main>
 </body>

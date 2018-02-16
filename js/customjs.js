@@ -1,24 +1,32 @@
 $(document).ready(function () {
-    var modal = document.getElementById('SprintModal');
-    var btn = document.getElementById("SprintModalBtn");
-    var span = document.getElementsByClassName("close-SprintModal")[0];
-    var startOver = document.getElementById("start-over-btn");
-    btn.onclick = function() {
-        modal.style.display = "block";
-    };
+    const modal = document.getElementById('SprintModal');
+    const btn = document.getElementById("SprintModalBtn");
+    const span = document.getElementsByClassName("close-SprintModal")[0];
+    const startOver = document.getElementById("start-over-btn");
 
-    span.onclick = function() {
-        modal.style.display = "none";
-    };
+
+    if (btn) {
+        btn.onclick = function() {
+            modal.style.display = "block";
+        };
+    }
+
+    if (span) {
+        span.onclick = function() {
+            modal.style.display = "none";
+        };
+    }
 
     window.onclick = function(event) {
-        if (event.target == modal) {
+        if (event.target === modal) {
             modal.style.display = "none";
         }
     };
 
-    startOver.onclick = function() { 
-        location.href = "./choosePath.php";
-    };
+    if (startOver) {
+        startOver.onclick = function() {
+            location.href = "./choosePath.php";
+        };
+    }
 });
 
