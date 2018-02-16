@@ -108,7 +108,7 @@ $pageTitle = 'Sprint | Works for Business';
                         </div>
                     </div>
                 </div>
-                <div class="survey-sidebar hidden-md-down not-visible offset-2 col-md-4 col-12">
+                <div class="survey-sidebar sidebar-hidden offset-md-2 col-md-4 col-12" id="survey-sidebar-div">
                     <div class="survey-path-sidebar">
                         <div class="inner-survey-path done sideDesktop">
                         <span class="icon done">
